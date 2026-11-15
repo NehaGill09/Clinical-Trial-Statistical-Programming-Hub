@@ -28,10 +28,17 @@ Open sas/programs/00_run_all.sas in SAS 9.4+ and update project_root to your loc
 Mappings are illustrative, not a complete SDTM/ADaM implementation. Confirm current CDISC guides, controlled terminology and sponsor standards. Pinnacle 21 execution is not claimed; the repository includes a validation plan and example findings log only.
 
 ## Screenshots / visual evidence
-- [Study dashboard](screenshots/01-study-dashboard.svg)
-- [TLF preview](screenshots/02-tlf-preview.svg)
-- [QC validation](screenshots/03-qc-validation.svg)
-- [Study lead tracker](screenshots/04-study-lead-tracker.svg)
+### Study dashboard
+![Study dashboard preview](screenshots/01-study-dashboard.svg)
+
+### TLF preview
+![TLF output preview](screenshots/02-tlf-preview.svg)
+
+### QC validation
+![QC validation preview](screenshots/03-qc-validation.svg)
+
+### Study lead tracker
+![Study lead tracker preview](screenshots/04-study-lead-tracker.svg)
 
 These are designed SVG previews, not captured screenshots from a live SAS, RStudio or validated clinical environment.
 
