@@ -1,0 +1,18 @@
+USUBJID,AESEQ,AEDECOD,AEBODSYS,AESEV,AESER,AEOUT
+ABC301-001,1,Headache,Nervous system disorders,MILD,N,RECOVERED
+ABC301-003,1,Nausea,Gastrointestinal disorders,MODERATE,N,RECOVERED
+ABC301-005,1,Hypoglycemia,Metabolism and nutrition disorders,MODERATE,N,RECOVERED
+ABC301-007,1,Headache,Nervous system disorders,MILD,N,RECOVERED
+ABC301-009,1,Diarrhea,Gastrointestinal disorders,MILD,N,RECOVERED
+ABC301-011,1,Upper respiratory infection,Infections and infestations,MILD,N,RECOVERED
+ABC301-015,1,Nausea,Gastrointestinal disorders,MILD,N,RECOVERED
+ABC301-019,1,Hypoglycemia,Metabolism and nutrition disorders,SEVERE,Y,RECOVERED
+ABC301-002,1,Headache,Nervous system disorders,MILD,N,RECOVERED
+ABC301-004,1,Back pain,Musculoskeletal disorders,MILD,N,RECOVERED
+ABC301-006,1,Diarrhea,Gastrointestinal disorders,MILD,N,RECOVERED
+ABC301-008,1,Headache,Nervous system disorders,MILD,N,RECOVERED
+ABC301-010,1,Nausea,Gastrointestinal disorders,MODERATE,N,RECOVERED
+ABC301-012,1,Upper respiratory infection,Infections and infestations,MILD,N,RECOVERED
+ABC301-014,1,Back pain,Musculoskeletal disorders,MILD,N,RECOVERED
+ABC301-018,1,Headache,Nervous system disorders,MILD,N,RECOVERED
+ABC301-022,1,Hypoglycemia,Metabolism and nutrition disorders,MODERATE,N,RECOVERED
