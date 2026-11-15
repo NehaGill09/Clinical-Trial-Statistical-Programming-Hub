@@ -1,0 +1,11 @@
+%macro assert_nobs(data=, min=1);
+%local ds n rc nobs;
+%let ds=%sysfunc(open(&data));
+%if &ds %then %do;
+%let nobs=%sysfunc(attrn(&ds,nobs));
+%let rc=%sysfunc(close(&ds));
+%if &nobs < &min %then %put ERROR: &data has &nobs rows; expected at least &min.;
+%else %put NOTE: &data row count passed (&nobs).;
+%end;
+%else %put ERROR: Could not open &data.;
+%mend;
