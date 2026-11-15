@@ -1,0 +1,6 @@
+Issue_ID,Check,Severity,Status,Disposition,Owner
+QC-001,Duplicate USUBJID,Error,Example closed,No duplicates expected in synthetic source,Programming
+QC-002,Unknown treatment,Error,Example closed,Treatment values restricted to DRUG and PBO,Programming
+QC-003,Week 24 visit completeness,Warning,Review,Confirm expected visit completeness,Data Management
+QC-004,SAS/R independent reconciliation,Info,Pending,Requires SAS runtime execution,QC Programmer
+QC-005,Pinnacle 21 validation,Info,Not run,Requires supported software and standards-compliant package,Standards Lead
