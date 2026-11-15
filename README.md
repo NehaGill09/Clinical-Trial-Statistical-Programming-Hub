@@ -43,4 +43,21 @@ Mappings are illustrative, not a complete SDTM/ADaM implementation. Confirm curr
 These are designed SVG previews, not captured screenshots from a live SAS, RStudio or validated clinical environment.
 
 ## Suggested walkthrough
+Open the repository and review the README.
+
+
+
+Install R and the packages readr, dplyr, and ggplot2.
+
+
+
+Run Rscript r/run_pipeline.R from the repository root.
+
+
+
+Open dashboard/index.html to view the dashboard.
+
+
+
+If you have SAS access, run the programs in sas/programs/
 Review the study plan, inspect source data and mappings, run the R pipeline, review SAS programs, then inspect QC and screenshot previews.
