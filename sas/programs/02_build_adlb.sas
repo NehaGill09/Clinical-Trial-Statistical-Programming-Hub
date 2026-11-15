@@ -1,0 +1,12 @@
+proc import datafile="&raw.\lb.csv" out=work.lb dbms=csv replace; guessingrows=max; run;
+proc sort data=work.lb; by USUBJID AVISITN; run;
+data out.adlb;
+ set work.lb; by USUBJID;
+ length STUDYID $8 PARAMCD $8 PARAM $40;
+ retain BASE;
+ if first.USUBJID then BASE=.;
+ STUDYID='ABC-301'; PARAMCD=LBTESTCD; PARAM=LBTEST;
+ AVAL=input(LBORRES,best.);
+ if AVISIT='BASELINE' then BASE=AVAL;
+ CHG=AVAL-BASE;
+run;
