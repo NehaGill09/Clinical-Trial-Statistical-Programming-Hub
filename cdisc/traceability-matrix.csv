@@ -1,0 +1,7 @@
+Source,SDTM,ADaM,Output,Derivation
+DM.USUBJID,DM.USUBJID,ADSL.USUBJID,Subject-level outputs,Direct mapping
+DM.ARM,DM.ARM,ADSL.TRT01A,TLF 1,Actual treatment mapping
+LB.LBORRES,LB.LBORRES,ADLB.AVAL,HbA1c TLF,Numeric conversion
+LB.AVISIT,LB.VISIT,ADLB.AVISIT,HbA1c TLF,Visit mapping
+ADLB.AVAL and BASE,NA,ADLB.CHG,HbA1c TLF,CHG=AVAL-BASE
+AE.AEDECOD,AE.AEDECOD,ADAE.AEDECOD planned,AE summary,Illustrative source term
