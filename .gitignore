@@ -1,0 +1,7 @@
+outputs/*.csv
+outputs/*.png
+.Rhistory
+.RData
+*.log
+*.lst
+.DS_Store
